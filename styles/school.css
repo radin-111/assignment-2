@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.font{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+  }
+  
+.common{
+    background-color: #F7F7F7;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.navp{
+    display: flex;
+}
+.ftitle{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 15px;
+}
+nav{
+    margin-top: 20px;
+}
+.navitem{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 32px;
+}
+.btn-1{
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 60px;
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#i-1{
+    color: #FEA301;
+}
+#i-2{
+    color: #01ACFD;
+}
+#i-3{
+    color: #05D4DF;
+}
+#i-4{
+    color: #5D58EF;
+}
+
+.banner{
+
+    display: flex;
+    gap: 50px;
+}
+/* .imgb{
+    width: 100%;
+} */
+.b-des{
+    margin-top: 120px;
+}
+.b-title{
+    font-weight: bold;
+    font-size: 3.25rem;
+}
+#ooo{
+    color:orange;
+}
+#oo{
+    color:#01ACFD ;
+}
+.b-des-p{
+    font-size: 1.25rem;
+   
+}
+.btn-b{
+    font-weight: bold;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 47px;
+    background-color: #111111;
+}
+
+@media screen and (max-width:576px) {
+    .navitem , .btc {
+        display: none;
+    }
+    .b-title{
+        text-align: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .imgb{
+        width: 100%;
+       
+    }
+    .b-des{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+}
