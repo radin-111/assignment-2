@@ -10,6 +10,10 @@
     background-color: #F7F7F7;
     max-width: 1160px;
     margin: 0 auto;
+    
+}
+main > section{
+    margin-top: 50px;
 }
 .navp{
     display: flex;
@@ -90,7 +94,49 @@ nav{
     padding: 10px 47px;
     background-color: #111111;
 }
-
+.cti{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#a1{
+    font-weight: bold;
+    text-decoration: none;
+    color: #64C8FF;
+    
+}
+#a2{
+    font-weight: bold;
+    text-decoration: none;
+    color: #F0AA00;
+    
+}
+#a3{
+    font-weight: bold;
+    text-decoration: none;
+    color: #8700FF;
+   
+}
+main{
+    background-image: url('../assets/bg.png');
+}
+.s-curriculum{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+.card-c{
+    
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05) ;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    margin-top: 5rem;
+    background-color: #FFFFFF;
+    
+}
 @media screen and (max-width:576px) {
     .navitem , .btc {
         display: none;
