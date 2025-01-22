@@ -227,17 +227,15 @@ nav{
    
     border-radius: 16px;
 }
-footer{
+.footer{
    
-    margin-top: 60px;
-    max-height: 519px;
     
-    
-    background-color: #01ACFD;
 }
 .footer{
-    max-width: 1070.91px;
-
+    max-width: 1439px;
+    max-height: 519px;
+    margin-top: 60px;    
+    background-color: #01ACFD;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
@@ -286,14 +284,5 @@ footer{
     .a-card{
         width: calc(100-12)/2;
     }
-    .footer{
-        grid-template-columns: repeat(1,1fr);
-    }
-    /* .a-card{
-        max-width: 290px;
-        max-height: 300px;
-    } */
-    /* .hr{
-        visibility: visible;
-    } */
+    
 }
