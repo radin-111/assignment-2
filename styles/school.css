@@ -7,7 +7,7 @@
   }
   
 .common{
-    background-color: #F7F7F7;
+    background-color: #F7F7F7 ;
     max-width: 1160px;
     margin: 0 auto;
     
@@ -135,6 +135,26 @@ main{
     padding-bottom: 52px;
     margin-top: 5rem;
     background-color: #FFFFFF;
+    background: linear-gradient(180deg, #F2E8FF, #FFFFFF);
+    border: 1px solid #F2E8FF;
+    
+}
+.c-des{
+    color: rgba(128, 128, 128, 1);
+}
+.card-btn{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn-card{
+    background-color: #FEA301;
+    width: 60px;
+    border-radius: 30px;
+    border: none;
+    height: 60px;
+
     
 }
 @media screen and (max-width:576px) {
