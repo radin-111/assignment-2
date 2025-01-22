@@ -18,6 +18,12 @@
     margin: 0 auto;
     
 }
+.nava{
+    border-top: 5px solid black;
+}
+.flex{
+    display: flex;
+}
 main > section{
     margin-top: 50px;
 }
@@ -167,8 +173,9 @@ nav{
 .stories{
     display: flex;
     gap: 18px;
+    
     background-image: url('../assets/bg.png');
-    background: linear-gradient(120deg, #FEA301, #FFFFFF);
+    
     
 }
 .v-card{
@@ -181,6 +188,8 @@ nav{
     
 }
 .a-card{
+    max-width: 291px;
+    max-height: 301px;
     border-radius: 16px;
     background-color: #FFFFFF;
     
@@ -227,29 +236,72 @@ nav{
    
     border-radius: 16px;
 }
-.footer{
-   
+#button{
+    margin-top: 120px;
+    border-radius: 12px;
+    background-color: #111111;
+    border: none;
+    height: 50px;
+    padding: 10px 61px;
+    color: #FFFFFF;
     
 }
 .footer{
-    max-width: 1439px;
-    max-height: 519px;
-    margin-top: 60px;    
+    width: 100%;
     background-color: #01ACFD;
+    margin-top: 60px;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    margin: auto;
+    
+    
     
 }
+.b{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.i-container{
+    
+    
+}
+.f-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #FFFFFF;
 
-.a{
+}
+.f-title2{
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+.f-title3{
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+.links{
+    display: flex;
+    
+    flex-direction: column;
+    
     text-decoration: none;
     color: #FFFFFF;
 }
+.last{
+    display: flex;
+    gap: 10px;
+}
+
 
 @media screen and (max-width:576px) {
-    .navitem , .btc , .v-card{
+    .navitem , .btc , .v-card , .mark{
         display: none;
     }
     .b-title{
@@ -275,14 +327,23 @@ nav{
         
     }
     .f-card{
-        
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 12px;
         width: 100%;
+        height: 100%;
         
         
-    }
-    .a-card{
-        width: calc(100-12)/2;
     }
     
+    .a-card{
+        width: auto;
+    }
+    .footer{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        justify-items: center;
+    }
 }
